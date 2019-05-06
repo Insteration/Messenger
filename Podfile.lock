@@ -1,0 +1,37 @@
+PODS:
+  - InputBarAccessoryView (4.3.0)
+  - MessageKit (3.1.0):
+    - InputBarAccessoryView (~> 4.3.0)
+  - Scaledrone (0.5.0):
+    - Starscream (~> 3.1.0)
+  - Starscream (3.1.0)
+
+DEPENDENCIES:
+  - MessageKit (from `https://github.com/MessageKit/MessageKit.git`, branch `3.0.0-swift5`)
+  - Scaledrone (~> 0.5.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - InputBarAccessoryView
+    - Scaledrone
+    - Starscream
+
+EXTERNAL SOURCES:
+  MessageKit:
+    :branch: 3.0.0-swift5
+    :git: https://github.com/MessageKit/MessageKit.git
+
+CHECKOUT OPTIONS:
+  MessageKit:
+    :commit: 8f0a1715106ea0c6fc21aa7181a6c42fc9b588dd
+    :git: https://github.com/MessageKit/MessageKit.git
+
+SPEC CHECKSUMS:
+  InputBarAccessoryView: 28dca73f28df7822fe5377f83cfc4547e22f90ff
+  MessageKit: be2076e0920a965db7258139d27be6a55a3dfa4c
+  Scaledrone: 7fc6a9ab8e969b0df53fe14b54217db8ddf0715a
+  Starscream: 08172b481e145289c4930cb567230fb55897cfa4
+
+PODFILE CHECKSUM: 7f090aa2a287068c7e14516920518dcd453d1e35
+
+COCOAPODS: 1.6.1
